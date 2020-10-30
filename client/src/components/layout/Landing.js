@@ -1,0 +1,22 @@
+import React from 'react'
+
+export const Landing = () => {
+    return (
+    <section className="landing">
+      <div className="dark-overlay">
+        <div class="landing-inner">
+          <h1 class="x-large">Developer Connector</h1>
+          <p class="lead">
+            Create a developer profile/portfolio, share posts and get help from
+            other developers
+          </p>
+          <div className="buttons">
+            <a href="register.html" className="btn btn-primary">Sign Up</a>
+            <a href="login.html" className="btn btn-light">Login</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    )
+}
+export default Landing
